@@ -1,7 +1,7 @@
-﻿using WebAPI.Entities;
-using WebAPI.Interfaces;
+﻿using WebAPI.Application.Interfaces;
+using WebAPI.Domain.Entities;
 
-namespace WebAPI.Services
+namespace WebAPI.Application.Services
 {
     public class StudentCourseService : IStudentCourseService
     {

@@ -1,4 +1,4 @@
-﻿namespace WebAPI.Entities
+﻿namespace WebAPI.Domain.Entities
 {
     public class Course
     {

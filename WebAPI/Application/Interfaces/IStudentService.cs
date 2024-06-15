@@ -1,6 +1,6 @@
-﻿using WebAPI.Entities;
+﻿using WebAPI.Domain.Entities;
 
-namespace WebAPI.Interfaces
+namespace WebAPI.Application.Interfaces
 {
     public interface IStudentService
     {

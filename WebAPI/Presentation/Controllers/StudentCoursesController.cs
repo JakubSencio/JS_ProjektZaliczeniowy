@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebAPI.Entities;
-using WebAPI.Interfaces;
+using WebAPI.Application.Interfaces;
+using WebAPI.Domain.Entities;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Presentation.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
