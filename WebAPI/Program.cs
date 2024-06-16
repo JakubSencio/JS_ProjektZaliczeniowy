@@ -68,6 +68,8 @@ if (string.IsNullOrEmpty(jwtKey))
     throw new ArgumentNullException(nameof(jwtKey), "JWT Key configuration is missing.");
 }
 
+builder.Services.AddHttpClient();  
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
