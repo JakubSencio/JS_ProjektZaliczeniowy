@@ -5,15 +5,15 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS_ProjektZaliczeniowy", "JS_ProjektZaliczeniowy\JS_ProjektZaliczeniowy.csproj", "{DF1223D5-77F6-4649-9CBC-3DBBC785E36D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{36FBE468-E5F9-4939-AE5B-51C15D912A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{36FBE468-E5F9-4939-AE5B-51C15D912A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{3C946A40-A738-485C-B8F9-4C72211AACC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{3C946A40-A738-485C-B8F9-4C72211AACC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebGrpcService", "WebGrpcService\WebGrpcService.csproj", "{9276D0DC-F313-41EE-8005-74F8C078A840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebGrpcService", "WebGrpcService\WebGrpcService.csproj", "{9276D0DC-F313-41EE-8005-74F8C078A840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSoapService", "WebSoapService\WebSoapService.csproj", "{F2540253-B172-4163-96BE-6FFF781BC086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSoapService", "WebSoapService\WebSoapService.csproj", "{F2540253-B172-4163-96BE-6FFF781BC086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebGraphQL", "WebGraphQL\WebGraphQL.csproj", "{F631C644-A992-431D-B120-53A01F3B4331}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesApp", "RazorPagesApp\RazorPagesApp.csproj", "{654D2EEA-0429-4B85-922B-08D9F27C749A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{F2540253-B172-4163-96BE-6FFF781BC086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2540253-B172-4163-96BE-6FFF781BC086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2540253-B172-4163-96BE-6FFF781BC086}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F631C644-A992-431D-B120-53A01F3B4331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F631C644-A992-431D-B120-53A01F3B4331}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F631C644-A992-431D-B120-53A01F3B4331}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F631C644-A992-431D-B120-53A01F3B4331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654D2EEA-0429-4B85-922B-08D9F27C749A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654D2EEA-0429-4B85-922B-08D9F27C749A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654D2EEA-0429-4B85-922B-08D9F27C749A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654D2EEA-0429-4B85-922B-08D9F27C749A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

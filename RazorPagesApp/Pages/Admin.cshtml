@@ -1,0 +1,11 @@
+﻿@page
+@using Microsoft.AspNetCore.Authorization
+@model RazorPagesApp.Pages.AdminModel
+@attribute [Authorize(Policy = "AdminOnly")]
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Welcome, Admin!</p>
